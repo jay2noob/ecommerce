@@ -1,7 +1,7 @@
 import React from "react";
 import StripeCheckout from "react-stripe-checkout";
 
-import "./stripe-button.styles.scss";
+import logo from "../../assets/original.svg";
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
@@ -18,7 +18,7 @@ const StripeCheckoutButton = ({ price }) => {
       name="JCommerce Ltd."
       billingAddress
       shippingAddress
-      image="https://sendeyo.com/up/d/f3eb2117da"
+      image={logo} //"https://sendeyo.com/up/d/f3eb2117da"
       description={`Your price is $${price}`}
       amount={priceForStripe}
       panelLabel="Pay Now"
