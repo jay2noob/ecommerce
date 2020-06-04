@@ -14,7 +14,7 @@ import { GlobalStyle } from "./global.styles";
 import {
   auth,
   createUserProfileDocument,
-  addCollectionAndDocuments,
+  //addCollectionAndDocuments,
 } from "./firebase/firebase.utils";
 
 import { setCurrentUser } from "./redux/user/user.actions";
