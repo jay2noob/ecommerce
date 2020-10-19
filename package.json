@@ -21,7 +21,7 @@
     "stripe": "^6.28.0"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
+    "concurrently": "^5.3.0",
     "nodemon": "^1.19.4"
   }
 }
